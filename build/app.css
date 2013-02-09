@@ -1,5 +1,5 @@
 
-/* /home/antlai/mercurial/cloudassistant/caf/caf_core/public/enyo/enyo/../lib/layout/fittable/source/FittableLayout.css */
+/* /home/antlai/git/cloudassistant/caf/caf_core/public/enyo/enyo/../lib/layout/fittable/source/FittableLayout.css */
 
 .enyo-fittable-rows-layout {
 	position: relative;
@@ -71,7 +71,7 @@
 	margin-bottom: 0 !important;
 }
 
-/* /home/antlai/mercurial/cloudassistant/caf/caf_core/public/enyo/enyo/../lib/layout/list/source/List.css */
+/* /home/antlai/git/cloudassistant/caf/caf_core/public/enyo/enyo/../lib/layout/list/source/List.css */
 
 .enyo-list {
 	position: relative;
@@ -89,7 +89,7 @@
 	right: 0;
 }
 
-/* /home/antlai/mercurial/cloudassistant/caf/caf_core/public/enyo/enyo/../lib/layout/list/source/PulldownList.css */
+/* /home/antlai/git/cloudassistant/caf/caf_core/public/enyo/enyo/../lib/layout/list/source/PulldownList.css */
 
 .enyo-list-pulldown {
 	position: absolute;
@@ -152,7 +152,7 @@
 	-ms-transform: rotate(180deg);
 }
 
-/* /home/antlai/mercurial/cloudassistant/caf/caf_core/public/enyo/enyo/../lib/layout/panels/source/arrangers/Arranger.css */
+/* /home/antlai/git/cloudassistant/caf/caf_core/public/enyo/enyo/../lib/layout/panels/source/arrangers/Arranger.css */
 
 .enyo-arranger {
 	position: relative;
@@ -185,7 +185,7 @@
 }
 
 
-/* /home/antlai/mercurial/cloudassistant/caf/caf_core/public/enyo/enyo/../lib/layout/panels/source/Panels.css */
+/* /home/antlai/git/cloudassistant/caf/caf_core/public/enyo/enyo/../lib/layout/panels/source/Panels.css */
 
 .enyo-panels {
 }
@@ -200,7 +200,7 @@
 	}
 }
 
-/* /home/antlai/mercurial/cloudassistant/caf/caf_core/public/enyo/enyo/../lib/layout/tree/source/Node.css */
+/* /home/antlai/git/cloudassistant/caf/caf_core/public/enyo/enyo/../lib/layout/tree/source/Node.css */
 
 .enyo-node {
 	cursor: default;
@@ -232,7 +232,7 @@
 }
 
 
-/* /home/antlai/mercurial/cloudassistant/caf/caf_core/public/enyo/enyo/../lib/layout/imageview/source/ImageViewPin.css */
+/* /home/antlai/git/cloudassistant/caf/caf_core/public/enyo/enyo/../lib/layout/imageview/source/ImageViewPin.css */
 
 
 .pinDebug {
@@ -240,7 +240,7 @@
 	border:1px solid yellow;
 }
 
-/* /home/antlai/mercurial/cloudassistant/caf/caf_core/public/enyo/enyo/../lib/onyx/css/onyx.css */
+/* /home/antlai/git/cloudassistant/caf/caf_core/public/enyo/enyo/../lib/onyx/css/onyx.css */
 
 /* WARNING: This is a generated file for backward-compatibility.  Most      */
 /* usrs should instead modify LESS files.  If you choose to edit this CSS   */

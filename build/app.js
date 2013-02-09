@@ -1,7 +1,7 @@
 
 // minifier: path aliases
 
-enyo.path.addPaths({layout: "/home/antlai/mercurial/cloudassistant/caf/caf_core/public/enyo/enyo/../lib/layout/", onyx: "/home/antlai/mercurial/cloudassistant/caf/caf_core/public/enyo/enyo/../lib/onyx/", onyx: "/home/antlai/mercurial/cloudassistant/caf/caf_core/public/enyo/enyo/../lib/onyx/source/", cloudassistant: "/home/antlai/mercurial/cloudassistant/caf/caf_core/public/enyo/enyo/../lib/cloudassistant/", cloudassistant: "/home/antlai/mercurial/cloudassistant/caf/caf_core/public/enyo/enyo/../lib/cloudassistant/source/", util: "source/util/"});
+enyo.path.addPaths({layout: "/home/antlai/git/cloudassistant/caf/caf_core/public/enyo/enyo/../lib/layout/", onyx: "/home/antlai/git/cloudassistant/caf/caf_core/public/enyo/enyo/../lib/onyx/", onyx: "/home/antlai/git/cloudassistant/caf/caf_core/public/enyo/enyo/../lib/onyx/source/", cloudassistant: "/home/antlai/git/cloudassistant/caf/caf_core/public/enyo/enyo/../lib/cloudassistant/", cloudassistant: "/home/antlai/git/cloudassistant/caf/caf_core/public/enyo/enyo/../lib/cloudassistant/source/", util: "source/util/"});
 
 // FittableLayout.js
 
@@ -3702,9 +3702,10 @@ var i = enyo.json.stringify(e), s = new enyo.Ajax({
 url: this.url,
 method: this.method,
 handleAs: this.handleAs,
-contentType: this.contentType
+contentType: this.contentType,
+postBody: i
 });
-s.retries = t, s.msg = e, s.cbOK = n, s.cbError = r, s.response(this, "responseHandler"), s.error(this, "transportErrorHandler"), s.go(i);
+s.retries = t, s.msg = e, s.cbOK = n, s.cbError = r, s.response(this, "responseHandler"), s.error(this, "transportErrorHandler"), s.go();
 },
 responseHandler: function(e, t) {
 var n = enyo.cloudassistant.jsonRpc;
